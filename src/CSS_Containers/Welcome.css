@@ -1,0 +1,25 @@
+.welcome-pages {
+
+    color: white;
+    /* display: flex; */
+    text-align: center !important;
+    /* margin-left: 15%; */
+}
+
+.menu-bar{
+    display: flex;
+    margin-left: 8.5%;
+    margin-right: 5%;
+    text-align: center !important;
+    color: white;
+}
+.menu-bar .top{
+        background-color: hsla(189, 34%, 59%, 0.255);
+
+}
+.welcome{
+    margin-bottom: 0%;
+}
+.pageTitle{
+    margin-bottom: 0%;
+}
