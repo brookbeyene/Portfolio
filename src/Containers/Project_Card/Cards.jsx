@@ -6,53 +6,25 @@ import pythonImage from '../Assests/pythonImage.jpg';
 import {Accordion, Card, Button} from "react-bootstrap";
 
 
-export default class Cards extends Component{
-    render(){
+export default function Cards(props) {
+    
         return(
-            <div className="accordion-project" id="project-all">
-                <Accordion>
-                    <Card>
-                        <Card.Header>
-                        <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                            Python
-                        </Accordion.Toggle>
-                        </Card.Header>
-                        <Accordion.Collapse eventKey="0">
-                        <Card.Body>
-                            
-                    <div className="container-fluid d-flex justify-content-center">
-                        <div className="row">
-                            <div className="col-md-4">
-                                <PCard imgsrc={H_R_Diagram} />
-                            </div>
-                        </div>
+             <div className="container-fluid d-flex justify-content-center">
+                <div className="row">
+                    <div className="col-md-4">
+                        <PCard imgsrc={props.projectImage} projectLink={props.projectLink}/>
+                    </div>   
+                </div>
+                <div className="row">
+                    <div className="col-md-4">
+                        <PCard imgsrc={props.h_R_Diagram} projectLink={props.projectLink}/>
                     </div>
-                        </Card.Body>
-                        </Accordion.Collapse>
-                    </Card>
-                    <Card>
-                        <Card.Header>
-                        <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                            Python
-                        </Accordion.Toggle>
-                        </Card.Header>
-                        <Accordion.Collapse eventKey="1">
-                        <Card.Body>
-                            
-                    <div className="container-fluid d-flex justify-content-center">
-                        <div className="row">
-                            <div className="col-md-4">
-                                <PCard imgsrc={pythonImage} />
-                            </div>
-                            
-                        </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-4">
+                        <PCard imgsrc={props.projectImage} projectLink={props.projectLink}/>
                     </div>
-                        </Card.Body>
-                        </Accordion.Collapse>
-                    </Card>
-            
-                    </Accordion>
-            </div>
+                </div>
+            </div> 
         )
-    }
 }

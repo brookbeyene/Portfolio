@@ -1,13 +1,11 @@
 .project .body{
     
-    /* background-color: hsla(189, 34%, 59%, 0.255); */
+    
     margin-bottom: 0%;
     text-align: center !important;
 
 }
-/* .menu-bar .project{
-    background-color: red;
-} */
+
 .project-menu-bar{
     display: flex;
     margin-left: 8.5%;
@@ -16,14 +14,11 @@
   
     color: white;
 }
-.accordion-project{
-    display: flex;
-    position: relative;
-    margin-left: 30%;
+
+.project .project-card{
+    /* display: flex; */
+    flex-wrap: wrap;
     text-align: center;
-   
+    justify-content: space-between;
 }
-/* .pageTitle .project{
-    display: flex;
-    text-align: center;
-} */
+
