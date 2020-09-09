@@ -4,16 +4,42 @@ import Contact from './Contact';
 import Blog from './Blog';
 import About from './About';
 import '../CSS_Containers/Welcome.css'
+import * as ReactBootstrap from "react-bootstrap";
+
 
 export default function Welcome(){
     return(
         <div className="welcome">
+            
             <div className="menu-bar top">
-                <h2 className="menu-bar pageTitle"><a href="#welcome-title">Home</a></h2>
-                <div className="menu-bar about"><h2><a href="#welcome-about">About</a></h2></div>
-                <div className='menu-bar project'><h2><a href="#welcome-project">Project</a></h2> </div>
-                <div className='menu-bar blog'><h2><a href="#welcome-blog">Blog</a></h2> </div>
-                <div className='menu-bar contact'><h2><a href="#welcome-contact">Contact</a></h2></div>
+                <ReactBootstrap.ButtonGroup aria-label="Basic example">
+                    <ReactBootstrap.Button variant="secondary">
+                        <h2>
+                            <a href="#welcome-title" style={{color: "#1a0000"}}>  Home  </a>
+                        </h2>
+                    </ReactBootstrap.Button>
+                    <ReactBootstrap.Button variant="secondary">
+                        <h2>
+                            <a href="#welcome-about" style={{color: "#1a0000"}}>  About  </a>
+                        </h2>
+                    </ReactBootstrap.Button>
+                    <ReactBootstrap.Button variant="secondary">
+                        <h2>
+                            <a href="#welcome-project" style={{color: "#1a0000"}}>  Project  </a>
+                            </h2></ReactBootstrap.Button>
+                    <ReactBootstrap.Button variant="secondary">
+                        <h2>
+                            <a href="#welcome-blog" style={{color: "#1a0000"}}>  Blog  </a>
+                        </h2>
+                    </ReactBootstrap.Button>
+                    <ReactBootstrap.Button variant="secondary">
+                        <h2>
+                            <a href="#welcome-contact" style={{color: "#1a0000"}}>  Contact  </a>
+                            </h2>
+                    </ReactBootstrap.Button>
+                </ReactBootstrap.ButtonGroup>
+                {/* <h2 className="menu-bar pageTitle"><a href="#welcome-title">Home</a></h2>
+                <div className="menu-bar about"><h2><a href="#welcome-about">About</a></h2></div>*/}
             </div>
             <div className="welcom-pages">
                 <div className="welcome welcome-div">
