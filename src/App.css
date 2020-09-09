@@ -2,11 +2,26 @@
   display: flex;
   text-align: center !important;
   color: white;
+  margin: 0px;
   /* background: black; */
   
 }
+
 /* .App .welcome .project .pageTitle {
   display: flex;
   text-align:left;
   
 } */
+
+.App .App-page .myImage .my-Image{
+  /* background: radial-gradient(#e5e5e5,#ffff, #e5e5e5); */
+  width: 20rem;
+  padding: 3rem 0 !important;
+
+  position: absolute; /* Reposition logo from the natural layout */
+  left: 75px;
+  /* top: 0px;
+  width: 300px;
+  height: 400px;
+  z-index: 2; */
+}

@@ -5,9 +5,15 @@ import myImage1 from './Containers/Assests/myImage1.jpg'
 function App() {
   return (
     <div className="App">
+      
       <div className="App-page">
-        <img src={myImage1}/>
-        <Welcome />
+        <div className="myImage"> 
+          <img className="my-Image" src={myImage1}/>
+        </div>
+        <div className="welcome-div">
+          <Welcome />
+        </div>
+        
       </div>
     </div>
   );

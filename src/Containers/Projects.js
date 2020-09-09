@@ -4,7 +4,7 @@ import Cards from './Project_Card/Cards.jsx'
 import * as ReactBootstrap from "react-bootstrap";
 import pythonImage from '../Containers/Assests/pythonImage.jpg';
 import H_R_Diagram from '../Containers/Assests/H_R_Diagram.jpg';
-import myImage1 from '../Containers/Assests/myImage1.jpg';
+import myImage1 from '../Containers/Assests/cardImage.jpg';
 
 
 export default function Project(){
