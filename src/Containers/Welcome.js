@@ -13,26 +13,26 @@ export default function Welcome(){
             
             <div className="menu-bar top">
                 <ReactBootstrap.ButtonGroup aria-label="Basic example">
-                    <ReactBootstrap.Button variant="secondary">
+                    <ReactBootstrap.Button variant="secondary" className="btn btn-outline-success">
                         <h2>
                             <a href="#welcome-title" style={{color: "#1a0000"}}>  Home  </a>
                         </h2>
                     </ReactBootstrap.Button>
-                    <ReactBootstrap.Button variant="secondary">
+                    <ReactBootstrap.Button variant="secondary"className="btn btn-outline-success">
                         <h2>
                             <a href="#welcome-about" style={{color: "#1a0000"}}>  About  </a>
                         </h2>
                     </ReactBootstrap.Button>
-                    <ReactBootstrap.Button variant="secondary">
+                    <ReactBootstrap.Button variant="secondary" className="btn btn-outline-success">
                         <h2>
                             <a href="#welcome-project" style={{color: "#1a0000"}}>  Project  </a>
                             </h2></ReactBootstrap.Button>
-                    <ReactBootstrap.Button variant="secondary">
+                    <ReactBootstrap.Button variant="secondary" className="btn btn-outline-success">
                         <h2>
                             <a href="#welcome-blog" style={{color: "#1a0000"}}>  Blog  </a>
                         </h2>
                     </ReactBootstrap.Button>
-                    <ReactBootstrap.Button variant="secondary">
+                    <ReactBootstrap.Button variant="secondary" className="btn btn-outline-success">
                         <h2>
                             <a href="#welcome-contact" style={{color: "#1a0000"}}>  Contact  </a>
                             </h2>

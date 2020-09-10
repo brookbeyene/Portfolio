@@ -13,17 +13,17 @@ export default function Cards(props) {
              <div className="container-fluid d-flex justify-content-center">
                 <div className="row">
                     <div className="col-md-4">
-                        <PCard imgsrc={props.myImage1} projectLink={props.firstLink}/>
+                        <PCard imgsrc={props.myImage1} project_url={props.firstLink} cardTitle ={props.firstCardTitle} cardDescription ={props.firstText}/>
                     </div>   
                 </div>
                 <div className="row">
                     <div className="col-md-4">
-                        <PCard imgsrc={props.h_R_Diagram} projectLink={props.projectLink}/>
+                        <PCard imgsrc={props.h_R_Diagram} project_url={props.secondLink} cardTitle ={props.secondCardTitle} cardDescription ={props.secondText}/>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-4">
-                        <PCard imgsrc={props.projectImage} projectLink={props.thirdLink}/>
+                        <PCard imgsrc={props.projectImage} project_url={props.thirdLink} cardTitle ={props.thirdCardTitle} cardDescription ={props.thirdText}/>
                     </div>
                 </div>
             </div> 
