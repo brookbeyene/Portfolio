@@ -13,7 +13,7 @@ export default function Welcome(){
             
             <div className="menu-bar top">
                 <ReactBootstrap.ButtonGroup aria-label="Basic example">
-                    <ReactBootstrap.Button variant="secondary" className="btn btn-outline-success">
+                    <ReactBootstrap.Button variant="secondary" className="btn btn-outline-success" id="welcome-title">
                         <h2>
                             <a href="#welcome-title" style={{color: "#1a0000"}}>  Home  </a>
                         </h2>
