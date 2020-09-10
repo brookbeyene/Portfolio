@@ -1,17 +1,13 @@
 .welcome-pages {
-
-  
     text-align: center !important;
-
-    margin: 0%;
-    /* margin-top: 60%; */
+    margin-top: 10%;
     padding-top: 6rem
 }
 
-.menu-bar{
-  
-    text-align: center !important;
-  
+.menu-bar{ 
+    margin-top: 5%;
+
+    text-align: center !important;  
 }
 
 .welcome{

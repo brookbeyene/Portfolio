@@ -17,7 +17,7 @@ const PCard = props =>{
                 {/* {props.project_url} */}
                 {/* {props.home_top} */}
                 
-                <a href={props.project_url}  className="btn btn-outline-success">Go An</a>
+                <a href={props.project_url}  className="btn btn-outline-success">{props.project_url}</a>
                 <a href="#welcome-title" className="btn btn-outline-success">to top</a>
                 {/* <a href="http://localhost:3001/" className="btn btn-outline-success">Planet Weather</a> */}
             </div>

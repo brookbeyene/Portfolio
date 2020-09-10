@@ -6,15 +6,8 @@ function App() {
   return (
     <div className="App">
       
-      <div className="App-page">
-        <div className="myImage"> 
-          <img className="my-Image" src={myImage1}/>
-        </div>
-        <div className="welcome-div">
-          <Welcome />
-        </div>
-        
-      </div>
+      
+      <Welcome />
     </div>
   );
   

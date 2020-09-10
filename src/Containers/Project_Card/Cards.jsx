@@ -13,7 +13,7 @@ export default function Cards(props) {
              <div className="container-fluid d-flex justify-content-center">
                 <div className="row">
                     <div className="col-md-4">
-                        <PCard imgsrc={props.myImage1} projectLink={props.projectLink}/>
+                        <PCard imgsrc={props.myImage1} projectLink={props.firstLink}/>
                     </div>   
                 </div>
                 <div className="row">
@@ -23,7 +23,7 @@ export default function Cards(props) {
                 </div>
                 <div className="row">
                     <div className="col-md-4">
-                        <PCard imgsrc={props.projectImage} projectLink={props.projectLink}/>
+                        <PCard imgsrc={props.projectImage} projectLink={props.thirdLink}/>
                     </div>
                 </div>
             </div> 

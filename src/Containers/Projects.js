@@ -10,7 +10,7 @@ import myImage1 from '../Containers/Assests/cardImage.jpg';
 export default function Project(){
     return(
         <div className="project body">
-            <h1 className="pageTitle project">Projects</h1>
+            <h1 className="pageTitle project">Recent Projects</h1>
             
             {/* <button className="btn btn-primary" data-toggle="collapse" data-target="#content">Python</button>
             <div className="collapse" id="content"><Cards /></div> */}
@@ -20,9 +20,9 @@ export default function Project(){
             <div className="project-card">
 
             <Cards 
-                myImage1={myImage1} projectLink="https://krzysztofmsu.github.io/data-visualization-final-project/jekyll/update/2019/05/05/welcome-to-jekyll.html" 
+                myImage1={myImage1} firstLink="https://google.com" 
                 h_R_Diagram={H_R_Diagram} projectLink="https://krzysztofmsu.github.io/data-visualization-final-project/jekyll/update/2019/05/05/welcome-to-jekyll.html"
-                projectImage={pythonImage} projectLink="https://krzysztofmsu.github.io/data-visualization-final-project/jekyll/update/2019/05/05/welcome-to-jekyll.html"/> 
+                projectImage={pythonImage} thirdLink="https://krzysztofmsu.github.io/data-visualization-final-project/jekyll/update/2019/05/05/welcome-to-jekyll.html"/> 
             
             </div>
         </div>

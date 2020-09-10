@@ -1,7 +1,9 @@
 body{
+    
     background: radial-gradient(#e5e5e5,#ffff, #e5e5e5);
 }
 .card{
+    /* margin: 30%; */
     width: 20rem;
 }
 
@@ -10,6 +12,7 @@ body{
 }
 
 .card-body{
+    
     padding: 3rem 0 !important;
 }
 
@@ -17,8 +20,13 @@ body{
     font-size:0.9rem;
     padding:0.4rem 1.9rem;
 }
+/* .col-md-4{
+    margin: 30%;
 
+} */
 .container-fluid.row{
+    margin: 30%;
+
     padding-top: 6rem;
 }
 .overflow{

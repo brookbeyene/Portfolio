@@ -2,8 +2,8 @@
     /* background-color: hsla(189, 34%, 59%, 0.152); */
     color: rgb(19, 8, 8);
     
-    margin-bottom: 0%;
-    margin-top: 0%;
+    /* margin-bottom: 0%; */
+    /* margin-top: 0%; */
     text-align: center !important;
 
 }
@@ -19,6 +19,7 @@
 
 .project .project-card{
     /* display: flex; */
+    margin: 2%;
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-between;

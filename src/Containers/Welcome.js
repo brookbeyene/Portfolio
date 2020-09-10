@@ -42,10 +42,10 @@ export default function Welcome(){
                 <div className="menu-bar about"><h2><a href="#welcome-about">About</a></h2></div>*/}
             </div>
             <div className="welcom-pages">
-                <div className="welcome welcome-div">
+                {/* <div className="welcome welcome-div">
                 <h1 className="pageTitle" id="welcome-title">Welcome</h1>
                 
-                </div>
+                </div> */}
                 
                 <div className="welcome about" id="welcome-about"><About/> </div>
                 <div className='welcome project' id="welcome-project"><Project/> </div>
